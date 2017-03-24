@@ -1,4 +1,4 @@
-## Register 2 services instances on Eureka
+## Register 2 services instances on Eureka server.
 
 ## eureka-service - Build & Run
 
@@ -15,8 +15,10 @@ run EurekaServerApplication.java (port 8761)
 mvn install
 
 mvn spring-boot:run -Dserver.port=9097
+Working on http://localhost:9097/greeting
 
 mvn spring-boot:run -Dserver.port=9999
+Working on http://localhost:9999/greeting
 
 - see application.yml
 
